@@ -12,11 +12,13 @@ public class Main_Pessoa {
         lstPessoas.add(a1);
         
         for (Pessoa p : lstPessoas) {
-            if (p instanceof Aluno) {
+            System.out.println(p.imprimir());
+            
+            /*if (p instanceof Aluno) {
                 ((Aluno) p).getRa();
-            }
+            }*/
         }
         
-        System.out.println(((Professor)lstPessoas.get(1)).getRa());
+        System.out.println(((Aluno)lstPessoas.get(1)).getRa());
     }
 }
