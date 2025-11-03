@@ -14,7 +14,7 @@ public class Main_Conta {
         
         ContaBancaria c3 =  new ContaBancaria();
         
-        
+        ContaBancaria.imprimir();
         System.out.print(c3);
     }
 }
